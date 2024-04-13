@@ -1,10 +1,58 @@
-h2 {
-    background-image: url(Extreme.jpg);
-    background-position: centre;
-    width: 700px;
-    height: 700ox;
+.topnav {
+    background-color: #95b3ff;
+    overflow: hidden;
+    font-family: Sans-serif;
 }
 
-h2 {
-    text-align: left;
+.topnav a {    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
 }
+
+.topnav h4 {
+    float: right;
+}
+
+p {
+    font-family: Monaco;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Verdana;
+}
+
+h4 {
+    float: right;
+}
+
+.Welcome {
+    background-image: url(Extreme.jpg);
+    overflow: hidden;
+    text-align: center;
+}
+
+.Why {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.aim {
+    border: 10px solid rgb(108, 130, 255);
+}
+
+.aim h2 {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.aim p {
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+
