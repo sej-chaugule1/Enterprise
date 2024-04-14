@@ -11,6 +11,7 @@
     padding: 30px;
     text-decoration: none;
     font-size: 17px;
+    display: inline;
 }
 
 .topnav h4 {
@@ -34,11 +35,21 @@ h4 {
     background-image: url(Extreme.jpg);
     overflow: hidden;
     text-align: center;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
 }
 
 .Why {
     text-align: center;
     font-family: Helvetica;
+}
+
+.Why .p {
+    
+
 }
 
 .aim {
