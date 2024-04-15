@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
 .dropdownmenu ul, .dropdownmenu li{
     margin: 0;
     padding: 0;
@@ -22,7 +28,7 @@
     font-weight: 500;
     font-size: 20px;
     font-family: 'calibri';
-    padding: 15px 62px;
+    padding: 15px 60px;
     text-align: center;
     text-decoration: none;
 }
@@ -47,7 +53,7 @@ li:hover ul#submenu {
 }
 
 #submenu li {
-    float: none;
+    float: left;
     width: 100%;
 }
 
@@ -63,8 +69,72 @@ h2 {
     text-align: center;
 }
 
+body {
+    margin: 0;
+}
+
+.Why h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+}
+
+.container img{
+    justify-content: space-between;
+    height: 240px;
+    width: 300px;
+    float: left;
+}
+
+.container p {
+    display: block;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+}
+
+.image img{
+    justify-content: space-between;
+    height: 240px;
+    width: 300px;
+    float: right;
+}
+
+.image p {
+    display: block;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+}
+
+.box img{
+    justify-content: space-between;
+    height: 240px;
+    width: 300px;
+    float: right;
+}
+
+.box p {
+    display: block;
+}
+
 .aim {
-    border: 7px solid rgb(108, 130, 255);
+    border: 5px solid rgb(108, 130, 255);
 }
 
 .aim h2 {
