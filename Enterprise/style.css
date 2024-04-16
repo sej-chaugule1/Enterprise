@@ -10,8 +10,9 @@
 }
 
 .dropdownmenu ul {
-    background-color: rgb(108, 159, 255);
+    background-color: rgb(255, 255, 255);
     list-style: none;
+    padding: 14px 14x
 }
 
 .dropdownmenu li {
@@ -22,7 +23,7 @@
 }
 
 .dropdownmenu a {
-    background-color: rgb(127, 167, 255);
+    background-color: rgb(106, 151, 255);
     color: white;
     display: block;
     font-weight: 500;
@@ -81,20 +82,24 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px 110px;
     width: 60%;
+    column-gap: 10px;
+    align-items: center;
 }
 
 .container img{
     justify-content: space-between;
     height: 240px;
-    width: 300px;
+    width: 340px;
     float: left;
 }
 
-.container p {
+.text p {
     display: block;
     justify-content: space-between;
+    align-items: left;
+    font-size: 20px;
 }
 
 .image {
@@ -102,17 +107,20 @@ body {
     justify-content: space-between;
     padding: 40px;
     width: 60%;
+    column-gap: 10px;
+    padding: 20px 110px;
 }
 
-.image img{
+.image img {
     justify-content: space-between;
     height: 240px;
-    width: 300px;
-    float: right;
+    width: 340px;
 }
 
-.image p {
+.yay {
+    align-items: center;
     display: block;
+    font-size: 20px;
 }
 
 .box {
@@ -120,21 +128,26 @@ body {
     justify-content: space-between;
     padding: 40px;
     width: 60%;
+    column-gap: 10px;
+    padding: 20px 110px;
 }
 
-.box img{
+.box img {
     justify-content: space-between;
     height: 240px;
-    width: 300px;
-    float: right;
+    width: 340px;
 }
 
-.box p {
+.nice p {
     display: block;
+    font-size: 20px;
 }
 
 .aim {
-    border: 5px solid rgb(108, 130, 255);
+    border: 3px solid rgb(108, 130, 255);
+    background-color: rgb(180, 211, 255);
+    width: 80%;
+    margin: 30px auto;
 }
 
 .aim h2 {
@@ -146,6 +159,7 @@ body {
     font-family: Arial;
     font-size: 25px;
     text-align: center;
+    padding: 40px;
 }
 
 
