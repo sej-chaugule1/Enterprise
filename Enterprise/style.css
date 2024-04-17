@@ -82,7 +82,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 110px;
+    padding: 20px 200px;
     width: 60%;
     column-gap: 10px;
     align-items: center;
@@ -96,10 +96,10 @@ body {
 }
 
 .text p {
-    display: block;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     font-size: 20px;
+
 }
 
 .image {
@@ -108,7 +108,8 @@ body {
     padding: 40px;
     width: 60%;
     column-gap: 10px;
-    padding: 20px 110px;
+    padding: 20px 200px;
+    align-items: center;
 }
 
 .image img {
@@ -121,6 +122,7 @@ body {
     align-items: center;
     display: block;
     font-size: 20px;
+    font-family: "Nunito";
 }
 
 .box {
@@ -129,7 +131,8 @@ body {
     padding: 40px;
     width: 60%;
     column-gap: 10px;
-    padding: 20px 110px;
+    padding: 20px 200px;
+    align-items: center;
 }
 
 .box img {
@@ -141,6 +144,7 @@ body {
 .nice p {
     display: block;
     font-size: 20px;
+    align-items: center;
 }
 
 .aim {
@@ -160,8 +164,75 @@ body {
     font-size: 25px;
     text-align: center;
     padding: 40px;
+    font-style: italic; 
 }
 
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: auto;
+    width: 100%;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid #00145b 3px;
+    cursor: pointer;
+    transition: all 20s ease;
+    margin: 5px;
+}
+.dots label:hover {background-color: #79c5ff;}
+#img1:checked ~ .m1 {
+    margin-left: -0%;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
 
+.Reviews {
+    align-items: center;
+}
 
+.contact h1 {
+    text-align: center;
+    margin-top: 20px;
+}
 
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact input {
+    width: 400px;
+    height: 30px;
+}
+
+.submit {
+    width: 20px;
+    height: 40px;
+}
