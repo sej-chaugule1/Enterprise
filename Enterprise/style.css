@@ -4,6 +4,10 @@
     font-family: Arial;
 }
 
+.dropdownmenu {
+    margin-left: 15px;
+}
+
 .dropdownmenu ul, .dropdownmenu li{
     margin: 0;
     padding: 0;
@@ -66,12 +70,21 @@ li:hover ul#submenu {
     background-color:rgb(127, 167, 255);
 }
 
+
+
 h2 {
     text-align: center;
 }
 
 body {
     margin: 0;
+}
+
+.background {
+    background-image: url(Welcome\ to\ Extreme\ Education.jpg);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .Why h1{
@@ -215,6 +228,8 @@ body {
 
 .Reviews {
     align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .contact h1 {
@@ -227,18 +242,25 @@ form {
 }
 
 .contact input {
-    width: 400px;
-    height: 30px;
-    margin-left: 435px;
+    width: 500px;
+    height: 40px;
+    margin-left: 385px;
 }
 
 .contact label {
-    margin-left: 435px;
+    margin-left: 385px;
+    font-size: 20px;
+    margin-top: 20px;
 }
-
 
 .submit input {
     width: 90px;
     height: 30px;
     margin-left: 600px;
+    font-size: 20px;
+}
+
+footer ul {
+    float: right;
+    text-decoration: none;
 }
