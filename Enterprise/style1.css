@@ -77,3 +77,23 @@ li:hover ul#submenu {
     background-repeat: no-repeat;
     margin-top: 10px;
 }
+
+.Extreme {
+    font-size: 30px;
+    text-align: center;
+    margin: 70px;
+    background-color: rgb(224, 241, 250);
+    overflow: hidden;
+}
+
+.Extreme p {
+    margin: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Georgia", serif;
+    line-height: 1.8;
+}
+
+.offer {
+    margin-left: 50px;
+}
