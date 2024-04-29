@@ -33,7 +33,7 @@
     font-weight: 500;
     font-size: 20px;
     font-family: 'calibri';
-    padding: 15px 60px;
+    padding: 15px 48px;
     text-align: center;
     text-decoration: none;
 }
@@ -70,8 +70,6 @@ li:hover ul#submenu {
     background-color:rgb(127, 167, 255);
 }
 
-
-
 h2 {
     text-align: center;
 }
@@ -85,6 +83,7 @@ body {
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 .Why h1{
@@ -161,15 +160,14 @@ body {
 }
 
 .aim {
-    border: 3px solid rgb(108, 130, 255);
-    background-color: rgb(180, 211, 255);
-    width: 80%;
-    margin: 30px auto;
+    align-items: center;
 }
 
-.aim h2 {
+.ouraim h2 {
     font-family: Helvetica;
-    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    float: center;
 }
 
 .aim p {
@@ -178,6 +176,14 @@ body {
     text-align: center;
     padding: 40px;
     font-style: italic; 
+    border: 3px solid rgb(108, 130, 255);
+    background-color: rgb(180, 211, 255);
+    width: 50%;
+    height: 50%;
+    position: center;
+    margin-left: 280px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .slider {
@@ -258,9 +264,16 @@ form {
     height: 30px;
     margin-left: 600px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
-footer ul {
-    float: right;
-    text-decoration: none;
+footer {
+    background-color: rgb(215, 241, 255);
+    overflow: hidden;
+    padding: 10px;
+}
+
+footer h3 {
+    font-size: 15px;
+    text-align: center;
 }
