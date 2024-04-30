@@ -97,3 +97,48 @@ li:hover ul#submenu {
 .offer {
     margin-left: 50px;
 }
+
+.what {
+    align-items: center;
+    margin: 200px;
+}
+
+.what h2 {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.what img {
+    width: 130px;
+    height: 120px;
+}
+
+.success {
+    margin-left: 50px;
+}
+
+.left {
+    grid-area: left;
+    width: 130px;
+    height: 120px;
+}
+
+.right {
+    grid-area: right;
+    width: 130px;
+    height: 120px;
+}
+
+
+
+footer {
+    background-color: rgb(215, 241, 255);
+    overflow: hidden;
+    padding: 10px;
+}
+
+footer h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 50px;
+}
