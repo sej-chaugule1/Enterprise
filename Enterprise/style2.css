@@ -71,66 +71,9 @@ li:hover ul#submenu {
 }
 
 .background {
-    background-image: url(Aboutus1.png);
+    background-image: url(English1.png);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 10px;
-}
-
-.Extreme {
-    font-size: 30px;
-    text-align: center;
-    margin: 70px;
-    background-color: rgb(224, 241, 250);
-    overflow: hidden;
-}
-
-.Extreme p {
-    margin: 70px;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-family: "Georgia", serif;
-    line-height: 1.8;
-}
-
-.offer {
-    margin-left: 50px;
-}
-
-.what {
-    align-items: center;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-.group {
-    width: 120px;
-    height: 170px;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.group img {
-    max-width: 320px;
-}
-
-.success {
-    margin-left: 50px;
-}
-
-
-
-
-
-footer {
-    background-color: rgb(215, 241, 255);
-    overflow: hidden;
-    padding: 10px;
-}
-
-footer h3 {
-    font-size: 15px;
-    text-align: center;
-    margin: 50px;
 }
