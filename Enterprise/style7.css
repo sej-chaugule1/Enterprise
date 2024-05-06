@@ -71,27 +71,9 @@ li:hover ul#submenu {
 }
 
 .background {
-    background-image: url(English1.png);
+    background-image: url(enrolnow1.png);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 10px;
 }
-
-.primary h1 {
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.primary h2 {
-    margin-top: 24px;
-    margin-left: 20px;
-    font-size: 25px;
-    color: rgb(45, 143, 255);
-}
-
-.primary p {
-    margin-left: 20px;
-    margin-top: 20px;
-}
-

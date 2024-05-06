@@ -105,18 +105,63 @@ li:hover ul#submenu {
 }
 
 .group {
-    width: 120px;
-    height: 170px;
-    align-items: center;
-    box-sizing: border-box;
+    column-gap: 20px;
 }
 
 .group img {
     max-width: 320px;
+    margin-left: 50px;
+    float: left;
 }
+
+.yay ul {
+    padding: 93px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 190px;
+}
+
+.book {
+    column-gap: 400px;
+}
+
+.book img {
+    width: 160px;
+    margin-left: 80px;
+    float: left;
+}
+
+.text ul {
+    padding: 65px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 220px;
+}
+
+.hsc {
+    column-gap: 20px;
+}
+
+.hsc img {
+    width: 170px;
+    margin-left: 70px;
+    float: left;
+    margin-top: 55px;
+}
+
+.list ul {
+    padding: 130px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 152px;
+}
+
+
+
 
 .success {
     margin-left: 50px;
+    width: 100%;
 }
 
 
