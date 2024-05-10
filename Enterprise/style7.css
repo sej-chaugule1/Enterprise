@@ -77,3 +77,65 @@ li:hover ul#submenu {
     background-repeat: no-repeat;
     margin-top: 10px;
 }
+
+.contact h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: auto;
+    text-decoration: none;
+}
+
+.contact input {
+    width: 500px;
+    height: 40px;
+    margin-left: 385px;
+}
+
+.contact label {
+    margin-left: 385px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.submit input {
+    width: 90px;
+    height: 30px;
+    margin-left: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact2 h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: auto;
+    text-decoration: none;
+}
+
+.contact2 input {
+    width: 500px;
+    height: 40px;
+    margin-left: 385px;
+}
+
+.contact2 label {
+    margin-left: 385px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.submit input {
+    width: 90px;
+    height: 30px;
+    margin-left: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}

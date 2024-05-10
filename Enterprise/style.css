@@ -4,6 +4,7 @@
     font-family: Arial;
 }
 
+
 .dropdownmenu {
     margin-left: 15px;
 }
@@ -89,18 +90,19 @@ body {
 .Why h1{
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
-    width: 60%;
+    width: 70%;
     column-gap: 10px;
     align-items: center;
 }
 
-.container img{
+.container img {
     justify-content: space-between;
     height: 240px;
     width: 340px;
@@ -118,7 +120,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    width: 60%;
+    width: 70%;
     column-gap: 10px;
     padding: 20px 200px;
     align-items: center;
@@ -131,17 +133,23 @@ body {
 }
 
 .yay {
+    float: right;
+}
+
+.image p {
     align-items: center;
     display: block;
     font-size: 20px;
-    font-family: "Nunito";
+    margin-right: 100px;
+    margin-left: 100px;
+    float: right;
 }
 
 .box {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    width: 60%;
+    width: 70%;
     column-gap: 10px;
     padding: 20px 200px;
     align-items: center;
@@ -168,6 +176,7 @@ body {
     align-items: center;
     font-size: 30px;
     float: center;
+    margin-top: 20px;
 }
 
 .aim p {
@@ -241,6 +250,7 @@ body {
 .contact h1 {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 form {

@@ -79,19 +79,59 @@ li:hover ul#submenu {
 }
 
 .primary h1 {
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.primary h2 {
     margin-top: 24px;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(45, 143, 255);
 }
 
 .primary p {
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown span {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.dropdown ul {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(140, 205, 255, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+footer {
+    background-color: rgb(215, 241, 255);
+    overflow: hidden;
+    padding: 9px;
+}
+
+footer h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 40px;
+}

@@ -94,18 +94,44 @@ li:hover ul#submenu {
     line-height: 1.8;
 }
 
-.offer {
-    margin-left: 50px;
+.offer img {
+    margin-right: 50px;
+    width: 380px;
+    height: 220px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.provide {
+    margin-top: 30px;
+    margin-right: 60px;
+    float: right;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.provide p {
+    font-size: 19px;
+}
+
+.provide ul {
+    font-size: 19px;
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-bottom: 17px;
 }
 
 .what {
     align-items: center;
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 475px;
+    margin-top: 305px;
 }
 
 .group {
     column-gap: 20px;
+
 }
 
 .group img {
@@ -113,12 +139,46 @@ li:hover ul#submenu {
     margin-left: 50px;
     float: left;
 }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.group {
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.yay img {
+    margin-left: 10px;
+    float: left;
+}
+
+.yay1 {
+    margin-left: 600px;
+}
+
+.yay1 img {
+    width: 200px;
+}
 
 .yay ul {
-    padding: 93px;
+    padding: 90px 40px;
     justify-content: space-between;
-    font-size: 20px;
-    margin-left: 190px;
+    font-size: 18px;
+    margin-left: 220px;
+    line-height: 1.5;
+}
+
+.yay1 ul {
+    padding: 65px;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .book {
@@ -134,8 +194,9 @@ li:hover ul#submenu {
 .text ul {
     padding: 65px;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 220px;
+    line-height: 1.5;
 }
 
 .hsc {
@@ -144,16 +205,57 @@ li:hover ul#submenu {
 
 .hsc img {
     width: 170px;
-    margin-left: 70px;
-    float: left;
+    margin-left: 10px;
     margin-top: 55px;
 }
 
 .list ul {
     padding: 130px;
     justify-content: space-between;
-    font-size: 20px;
-    margin-left: 152px;
+    font-size: 18px;
+    margin-left: 250px;
+    line-height: 1.5;
+}
+
+.book {
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    margin-left: 50px;
+    column-gap: 10px;
+}
+
+.nice img {
+    margin-left: 10px;
+    float: left;
+}
+
+.HSC {
+    margin-left: 500px;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.nice1 img {
+    width: 150px;
+}
+
+.nice ul {
+    padding: 70px 1px;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-left: 220px;
+    line-height: 1.5;
+}
+
+.nice1 ul {
+    padding: 5px 30px;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 10px;
 }
 
 
@@ -165,17 +267,14 @@ li:hover ul#submenu {
 }
 
 
-
-
-
 footer {
     background-color: rgb(215, 241, 255);
     overflow: hidden;
-    padding: 10px;
+    padding: 9px;
 }
 
 footer h3 {
     font-size: 15px;
     text-align: center;
-    margin: 50px;
+    margin: 40px;
 }
