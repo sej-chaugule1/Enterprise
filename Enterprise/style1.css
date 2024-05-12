@@ -129,21 +129,10 @@ li:hover ul#submenu {
     margin-top: 305px;
 }
 
-.group {
-    column-gap: 20px;
-
-}
-
 .group img {
     max-width: 320px;
     margin-left: 50px;
     float: left;
-}
-  
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 .group {
@@ -163,7 +152,7 @@ li:hover ul#submenu {
 }
 
 .yay1 img {
-    width: 200px;
+    width: 220px;
 }
 
 .yay ul {
@@ -182,83 +171,104 @@ li:hover ul#submenu {
 }
 
 .book {
-    column-gap: 400px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
 }
 
 .book img {
-    width: 160px;
-    margin-left: 80px;
-    float: left;
-}
-
-.text ul {
-    padding: 65px;
-    justify-content: space-between;
-    font-size: 18px;
-    margin-left: 220px;
-    line-height: 1.5;
-}
-
-.hsc {
-    column-gap: 20px;
-}
-
-.hsc img {
-    width: 170px;
-    margin-left: 10px;
-    margin-top: 55px;
-}
-
-.list ul {
-    padding: 130px;
-    justify-content: space-between;
-    font-size: 18px;
-    margin-left: 250px;
-    line-height: 1.5;
-}
-
-.book {
-    align-items: center;
-    padding: 30px;
-    justify-content: space-between;
+    max-width: 320px;
     margin-left: 50px;
-    column-gap: 10px;
+    float: left;
 }
 
 .nice img {
-    margin-left: 10px;
+    margin-left: 35px;
     float: left;
-}
-
-.HSC {
-    margin-left: 500px;
-    align-items: center;
-    padding: 40px;
-    justify-content: space-between;
-    column-gap: 10px;
-}
-
-.nice1 img {
-    width: 150px;
+    width: 160px;
 }
 
 .nice ul {
-    padding: 70px 1px;
+    padding: 60px 35px;
     justify-content: space-between;
     font-size: 18px;
-    margin-left: 220px;
+    margin-left: 200px;
     line-height: 1.5;
+}
+
+.nice1 {
+    margin-left: 600px;
+    display: flex;
+}
+
+.nice1 img {
+    width: 170px;
+    height: 178px;
+    margin-left: 70px;
 }
 
 .nice1 ul {
-    padding: 5px 30px;
+    padding: 70px 20px;
+    justify-content: space-between;
+    font-size: 18px; 
+    line-height: 1.5;
+    margin-left: 15px;
+}
+
+.HSC li {
+    float: right;
+}
+
+.homework {
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.homework img {
+    max-width: 320px;
+    margin-left: 35px;
+    float: left;
+}
+
+.work img {
+    margin-left: 40px;
+    float: left;
+    width: 180px;
+}
+
+.work ul {
+    padding: 60px 35px;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-left: 200px;
+    line-height: 1.5;
+}
+
+.calender {
+    margin-left: 600px;
+}
+
+.calender img {
+    width: 170px;
+    height: 178px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.calender ul {
+    padding: 70px 110px;
     justify-content: space-between;
     font-size: 18px;
     line-height: 1.5;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
-
+.home li {
+    float: right;
+}
 
 
 .success {

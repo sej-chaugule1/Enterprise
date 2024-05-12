@@ -104,6 +104,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     border: 2px solid #727272;
+    font-size: 20px;
 }
   
 th, td {
@@ -119,15 +120,17 @@ th {
 .table3 {
     margin-left: 507px;
     margin-top: 45px;
+    font-size: 20px;
 }
 
 .dollar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
     width: 70%;
     column-gap: 10px;
     align-items: center;
+    margin-top: 10px;
 }
 
 .dollar img {
@@ -135,23 +138,36 @@ th {
     height: 130px;
     justify-content: space-between;
     display: flex;
+    margin-left: 20px;
 }
 
 .text p {
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    padding: -55px;
+    margin-right: -250px;
 }
 
-
-footer {
-    background-color: rgb(215, 241, 255);
-    overflow: hidden;
-    padding: 10px;
+.calender img {
+    width: 130px;
+    height: 130px;
 }
 
-footer h3 {
-    font-size: 15px;
-    text-align: center;
-    margin: 50px;
+.calender {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 70px;
+    column-gap: 5px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.fees p {
+    font-size: 20px;
+    padding: -70px 80px;
+    margin-right: -400px;
+    margin-top: 23px;
+    column-gap: 2px;
 }
