@@ -30,35 +30,98 @@
 
 <div class="background"></div>
 
+<div class = "image">
+    <img src = "primary.jpg">
 <div class = "primary">
     <h1> Primary </h1>
     <p> Your children can learn gradually, at their own pace, 
         through practice and exploration of the ideas introduced in the lessons.</p>
 </div>
 
-<div class="dropdown">
-    <span>Syllabus structure</span>
-    <div class="dropdown-content">
-    <p>
-    <ul>
-        <li>Spelling</li>
-        <li>Vocabulary</li>
-        <li>Sentence Building</li>
-        <li>Phonics</li>
-        <li>Grammar</li>
-        <li>Reading</li>
-        <li>Comprehension</li>
-        <li>General Ability</li>
-        </ul>
-    </p>
-    </div>
+<button type="button" class="collapsible">Syllabus Structure</button>
+<div class="content">
+  <ul>
+    <li>Spelling</li>
+       <li>Vocabulary</li> 
+       <li>Sentence Building</li> 
+       <li>Phonics</li> 
+       <li>Grammar</li> 
+       <li>Reading</li> 
+       <li>Comprehension</li> 
+       <li>General Ability</li> 
+       <li>NAPLAN Preparation (Year 3-5)</li> 
+       <li>Opportunity Classes / Selective Schools Tests</li>
+  </ul>
 </div>
 
-<hr>
+<div class = "image2">
+    <img src = "highschool.jpg">
+<div class = "highschool">
+    <h1> High school </h1>
+    <p> The Secondary program is designed to bring your child’s
+         writing skills up to the standard required to succeed in High School.</p>
+</div>
+</div>
+
+<button type="button" class="collapsible2">Syllabus Structure</button>
+<div class="content2">
+  <ul>
+    <li>Comprehension</li>
+    <li>Spelling</li>
+    <li>Grammar</li>
+    <li>Creative writing</li>
+    <li>Punctuation</li>
+   <li>NAPLAN Preparation (Year 7- 9)</li>
+    <li>Writing Style</li>
+    <li>Poetry Analysis</li>
+  </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible2");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+
+</body>
 
 <footer>
     <h3>Copyright © 2024. All Rights Reserved | Academic by Theme Palace</h3>
 </footer>
-
-
-</body>

@@ -84,7 +84,7 @@ li:hover ul#submenu {
     margin-bottom: 20px;
 }
 
-form {
+.contact form {
     margin: auto;
     text-decoration: none;
 }
@@ -124,6 +124,7 @@ form {
     width: 500px;
     height: 40px;
     margin-left: 385px;
+    margin-top: 5px;
 }
 
 .contact2 label {

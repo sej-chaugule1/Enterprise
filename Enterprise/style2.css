@@ -80,54 +80,137 @@ li:hover ul#submenu {
 
 .primary h1 {
     margin-top: 24px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 30px;
     color: rgb(45, 143, 255);
 }
 
 .primary p {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-  
-.dropdown span {
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 200px;
-}
-
-.dropdown ul {
-    margin-left: 20px;
-    font-size: 25px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(140, 205, 255, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-  
-.dropdown:hover .dropdown-content {
     display: block;
 }
 
+.collapsible {
+    background-color: hsl(202, 100%, 90%);
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 30%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
 
+.image img {
+    float: right;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+  
+.image2 img {
+    float: right;
+    width: 310px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.active, .collapsible:hover {
+    background-color: #95d6ff;
+}
+  
+.content {
+    padding: 0 18px;
+    display: none;
+    background-color: #ffffff;
+    margin-left: 30px;
+    width: 27%;
+    border: 1px solid;
+    border-color: #5d5d5d;
+    line-height: 1.5;
+}
+
+.collapsible:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+  
+.active:after {
+    content: "\2796";
+}
+
+.highschool {
+    margin-top: 70px;
+}
+
+.highschool h1 {
+    margin-top: 24px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: rgb(45, 143, 255);
+}
+
+.highschool p {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.collapsible2 {
+    background-color: hsl(202, 100%, 90%);
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 30%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.active, .collapsible2:hover {
+    background-color: #95d6ff;
+}
+  
+.content2 {
+    padding: 0 18px;
+    display: none;
+    background-color: #ffffff;
+    margin-left: 30px;
+    width: 27%;
+    border: 1px solid;
+    border-color: #5d5d5d;
+    line-height: 1.5;
+}
+
+.collapsible2:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+  
+.active:after {
+    content: "\2796";
+}
 
 footer {
     background-color: rgb(215, 241, 255);
     overflow: hidden;
     padding: 9px;
+    margin-top: 30px;
 }
 
 footer h3 {

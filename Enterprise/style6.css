@@ -77,3 +77,82 @@ li:hover ul#submenu {
     background-repeat: no-repeat;
     margin-top: 10px;
 }
+
+.english {
+    margin-top: 20px;
+    float: left;
+    margin-left: 130px;
+}
+
+.english img {
+    width: 600px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.english h1 {
+    align-items: center;
+}
+
+.weekend::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.weekend {
+    float: right;
+    display: flex;
+}
+
+.weekend img {
+    width: 370px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.maths {
+    margin-top: 20px;
+    float: left;
+    margin-left: 130px;
+}
+
+.maths img {
+    width: 600px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.maths h1 {
+    align-items: center;
+}
+
+.endweek::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.endweek {
+    float: right;
+    display: flex;
+}
+
+.endweek img {
+    width: 370px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(215, 241, 255);
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 800px;
+}
+
+footer h3 {
+    font-size: 15px;
+    text-align: center;
+    margin: 50px;
+}
