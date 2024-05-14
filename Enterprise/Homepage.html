@@ -79,26 +79,80 @@
     <h2>Reviews:</h2>
 </div>
 
-<div class="slider">
-    <div class="images">
-        <input type="radio" name="slide" id="img1" checked>
-        <input type="radio" name="slide" id="img2">
-        <input type="radio" name="slide" id="img3">
-        <input type="radio" name="slide" id="img4">
+<div class="slideshow-container">
 
-        <img src="Review1.png" class="m1" alt="img1">
-        <img src="Review2.png" class="m2" alt="img2">
-        <img src="Review3.png" class="m3" alt="img3">
-        <img src="Review4.png" class="m4" alt="img4">
+    <div class="mySlides">
+      <q> This is an amazing, exceptional and truly high quality tutoring centre, 
+        I highly reccomend because I love Extreme Education!</q>
+        <br><br>
+      <p class="author">- Sejal Chaugule </p>
     </div>
-    <div class="dots">
-        <label for="img1"></label>
-        <label for="img2"></label>
-        <label for="img3"></label>
-        <label for="img4"></label>
+  
+    <div class="mySlides">
+      <q>Extreme Education is a 'Thriller' of a tutoring service! I moonwalked my way through 
+        challenging concepts with their expert guidance. You can say that I really 'Beat it!!'</q>
+        <br><br>
+      <p class="author">- Michael Jackson</p>
     </div>
-</div>
- 
+  
+    <div class="mySlides">
+      <q>Extreme Education? Oh boy, it's like living in a pineapple under the sea! 
+        I never thought I could understand algebra, but these guys made it easier 
+        than flipping Krabby Patties. Highly recommend if you want to feel as smart 
+        as a jellyfish in a brainstorm!</q>
+        <br><br>
+      <p class="author">- Patrick Star</p>
+    </div>
+
+    <div class="mySlides">
+        <q>Extreme Education? It's like having a Michelin-starred chef in your kitchen, 
+            but for your brain! These tutors are the creme de la creme of education, 
+            serving up knowledge with a side of passion and expertise. They don't just teach; 
+            they elevate your understanding to gourmet levels. </q>
+          <br><br>
+        <p class="author">- Gordon Ramsay</p>
+      </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
 <hr>
 
 <div class = contact>
@@ -123,11 +177,32 @@
 
 </div>
 
+
+
 <hr>
 
 <footer>
-    <h3>Copyright © 2024. All Rights Reserved | Academic by Theme Palace</h3>
+<div class = "footerNav">
+  <ul>
+    <li> <a href = "Homepage.html"> Home </a></li>
+    <li> <a href = "Aboutus.html"> About us </a></li>
+    <li> <a href = ""> Subjects </a></li>
+    <ul id="submenu">
+      <li><a href="English.html">English</a></li>
+      <li><a href="Maths.html">Mathematics</a></li>
+  </ul>
+    <li> <a href = "Meetourtutors.html"> Meet our tutors </a></li>
+    <li> <a href = "Pricing.html"> Pricing </a></li>
+    <li> <a href = "Timetable.html"> Timetable </a></li>
+    <li> <a href = "Enrolnow.html"> Enrol now </a></li>
+  </ul>
+</div>
+<div class = "footerBottom">
+  <p>Copyright © 2024. All Rights Reserved | Academic by Theme Palace</p>
+</div>
+
 </footer>
+
 
 </body>
 </html>

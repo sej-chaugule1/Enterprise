@@ -77,3 +77,49 @@ li:hover ul#submenu {
     background-repeat: no-repeat;
     margin-top: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #dff0f8;
+    padding: 5px;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+    color: rgb(125, 184, 227);
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(219, 232, 255)
+}
