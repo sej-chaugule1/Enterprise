@@ -94,12 +94,6 @@ li:hover ul#submenu {
     color: rgb(45, 143, 255);
 }
 
-.primary p {
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-}
 
 .collapsible {
     background-color: hsl(202, 100%, 90%);
@@ -609,4 +603,367 @@ li:hover ul#submenu {
     background-color: #d1e7ff;
     font-weight: bold;
     font-size: 13px;
+}
+
+
+@media (max-width: 430px) {
+    .logo img {
+        width: 930px;
+    }
+
+
+    .dropdownmenu a {
+        background-color: rgb(106, 151, 255);
+        color: white;
+        display: block;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 15px 48px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    li:hover ul#submenu {
+        margin-right: -116px;
+        margin-top: -53px;
+    }
+
+    #submenu {
+        width: 100%;
+    }
+
+    .dropdownmenu ul {
+        width: 50px;
+        text-align: center;
+    }
+
+    .background img {
+        width: 825px;
+        align-items: center;
+    }
+
+    .collapsible {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible1 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible2 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible3 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible4 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible5 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible6 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible7 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .collapsible8 {
+        background-color: hsl(202, 100%, 90%);
+        color: #000000;
+        cursor: pointer;
+        padding: 22px;
+        width: 80%;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        margin-left: 30px;
+        border-radius: 10px
+    }
+
+    .content {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content1 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content2 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content3 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content4 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content5 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content6 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content7 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+    .content8 {
+        padding: 0 18px;
+        display: none;
+        background-color: #ffffff;
+        margin-left: 30px;
+        width: 70%;
+        border: 1px solid;
+        border-color: #c4c4c4;
+        line-height: 1.5;
+        border-radius: 20px
+    }
+
+
+
+
+    .image img {
+        width: 400px;
+        margin-bottom: 30px;
+        margin-right: -500px;
+        margin-top: 200px;
+    }
+
+    .image2 img {
+        width: 400px;
+        margin-bottom: 100px;
+        margin-right: -500px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+        width: 219%;
+        background: #d1e7ff;
+        color: black;
+        display: flex;
+        margin-top: 30px;
+    }
+   
+    .footer div {
+        text-align: center;
+    }
+   
+    .col-2 {
+        margin-top: 10px;
+        background: #d1e7ff;
+        margin-left: 140px;
+    }
+   
+    .col-1 img {
+        width: 350px;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+   
+    .col-1 {
+        align-items: center;
+        margin-top: 10px;
+        background: #d1e7ff;
+    }
+   
+    .footer div h3 {
+        font-weight: bold;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+   
+    .col-2 a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+    }
+   
+    .col-2 ul {
+        list-style-type: none;
+        font-weight: 100;
+    }
+   
+    .col-3 p {
+        font-weight: 100;
+    }
+   
+    .col-3 {
+        margin-left: 170px;
+        background: #d1e7ff;
+        width: 100%;
+    }
+   
+    .footerbottom {
+        text-align: center;
+        font-weight: 300;
+        padding: 30px;
+        background-color: #d1e7ff;
+        font-weight: bold;
+        font-size: 13px;
+        width: 205%;
+    }
+
 }

@@ -179,8 +179,7 @@ h2 {
 .aimaim {
     background-image: url('ouraimbg.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100vw 80vh
+    background-size: 100% 100%;
 }
 
 .ouraim h2 {
@@ -393,31 +392,49 @@ form {
 
 @media (max-width: 430px) {
     .logo img {
-        display: none;
+        width: 1500px;
     }
 
-    .dropdownmenu li a{
-        width: 50px;
+    .dropdownmenu a {
+        background-color: rgb(106, 151, 255);
+        color: white;
+        display: block;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 15px 48px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    li:hover ul#submenu {
+        margin-right: -116px;
+        margin-top: -53px;
+    }
+
+    #submenu {
+        width: 100%;
     }
 
     .dropdownmenu ul {
-        width: 10px;
+        width: 50px;
+        text-align: center;
     }
 
     .background img {
-        width: 780px;
+        width: 400%;
         align-items: center;
+        margin-left: -50px;
     }
 
     .Why h1 {
-        margin-right: -400px; 
-        font-size: 40px;
+        margin-right: -900px; 
+        font-size: 50px;
         text-align: center;
     }
 
     .container img {
         align-items: center;
-        margin-left: 37%;
+        margin-left: 90%;
     }
 
     .container {
@@ -426,28 +443,35 @@ form {
     }
 
     .text p {
-        margin-left: 180px;
+        margin-left: 400px;
+        margin-right: -300px;
         width: 90%;
+        font-size: 25px;
     }
 
     .image img {
         align-items: center;
-        margin-left: 46%;
+        margin-left: 105%;
     }
 
     .image {
-        padding: 0;
+        display: inline-block;
+        align-items: center;
+        margin-top: 100px;
     }
-
+    
     .yay p {
-        margin-left: 210px;
+        margin-right: -490px;
         width: 90%;
+        font-size: 25px;
     }
-
+    
     .box img {
         align-items: center;
-        margin-left: 37%;
-        margin-top: 90px;
+        margin-left: 89%;
+        margin-top: 100px;
+        width: 500px;
+        height: 300px;
     }
 
     .box {
@@ -456,8 +480,174 @@ form {
     }
 
     .nice p {
-        margin-left: 180px;
+        margin-left: 400px;
         width: 90%;
+        font-size: 25px;
+    }
+
+    .aimaim {
+        background-image: url('ouraimbg.png');
+        background-size: 300% 100%;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin-left: 20px;
+        background-color: rgb(174, 218, 255)
+    }
+
+    .aim {
+        background-image: url('ouraimbg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-left: 60px;
+    }
+
+    .ouraim h2 {
+        font-size: 60px;
+        margin-left: 100px;
     }
     
+    .aim p {
+        font-size: 25px;
+        text-align: center;
+        padding: 90px;
+        font-style: italic;
+        width: 70%;
+        float: right;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 650px;
+        font-weight: 500;
+    }
+
+    .Reviews {
+        align-items: center;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 570px;
+    }
+
+    .slideshow-container {
+        margin-left: 350px;
+        width: 170%;
+        height: 50%;
+        font-size: 25px;
+    }
+
+    .dot-container {
+        margin-left: 330px;
+        width: 170%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .contact h1 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        align-items: center;
+        margin-right: -450px;
+    }
+
+    .contact {
+        background-image: url('homebg\ \(1\).png');
+    }
+
+    .contact textarea {
+        width: 500px;
+        height: 40px;
+        margin-left: 190px;
+    }
+    
+    .contact label {
+        font-size: 19px;
+        margin-top: 40px;
+        margin-left: 150px;
+        font-weight: 550;
+    }
+    
+    .submit input {
+        width: 90px;
+        height: 30px;
+        margin-left: 400px; 
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        width: 219%;
+        background: #d1e7ff;
+        color: black;
+        display: flex;
+    }
+    
+    .footer div {
+        text-align: center;
+    }
+    
+    .col-2 {
+        margin-top: 10px;
+        background: #d1e7ff;
+        margin-left: 140px;
+    }
+    
+    .col-1 img {
+        width: 350px;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+    
+    .col-1 {
+        align-items: center;
+        margin-top: 10px;
+        background: #d1e7ff;
+    }
+    
+    .footer div h3 {
+        font-weight: bold;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+    
+    .col-2 a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+    }
+    
+    .col-2 ul {
+        list-style-type: none;
+        font-weight: 100;
+    }
+    
+    .col-3 p {
+        font-weight: 100;
+    }
+    
+    .col-3 {
+        margin-left: 170px;
+        background: #d1e7ff;
+        width: 100%;
+    }
+    
+    .footerbottom {
+        text-align: center;
+        font-weight: 300;
+        padding: 30px;
+        background-color: #d1e7ff;
+        font-weight: bold;
+        font-size: 13px;
+        width: 205%;
+    } 
+
+
+
+
+
+
 }

@@ -371,3 +371,286 @@ iframe {
     font-weight: bold;
     font-size: 13px;
 }
+
+
+
+
+
+
+
+@media (max-width: 430px) {
+    .logo img {
+        width: 1200px;
+    }
+
+    .dropdownmenu a {
+        background-color: rgb(106, 151, 255);
+        color: white;
+        display: block;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 15px 48px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    li:hover ul#submenu {
+        margin-right: -116px;
+        margin-top: -53px;
+    }
+
+    #submenu {
+        width: 100%;
+    }
+
+    .dropdownmenu ul {
+        width: 50px;
+        text-align: center;
+    }
+
+    .background img {
+        width: 285%;
+        align-items: center;
+    }
+
+    .Extreme {
+        font-size: 35px;
+        text-align: center;
+        margin: 70px;
+        background-color: rgb(224, 241, 250);
+        overflow: hidden;
+        width: 245%;
+    }
+    
+    .Extreme p {
+        margin: 70px;
+        margin-left: 200px;
+        margin-right: 200px;
+        line-height: 1.8;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .offer img {
+        margin-right: -730px;
+        width: 620px;
+        height: 400px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        border-radius: 30px
+    }
+    
+    .provide {
+        margin-top: 30px;
+        margin-right: -90px;
+        float: right;
+        line-height: 1.5;
+        margin-left: 20px;
+    }
+    
+    .provide p {
+        font-size: 23px;
+    }
+    
+    .provide ul {
+        font-size: 23px;
+        margin-top: 17px;
+        margin-left: 17px;
+        margin-bottom: 17px;
+    }
+
+    .what {
+        align-items: center;
+        text-align: center;
+        font-size: 35px;
+        margin-right: -740px;
+    }
+    
+    .yay img {
+        margin-left: 30px;
+        width: 800px;
+        padding: 0 70px;
+    }
+
+    .yay ul {
+        font-size: 24px;
+        margin-left: 100px;
+        line-height: 1.5;
+    }
+    
+    .yay1 {
+        margin-left: 120px;
+    }
+    
+    .yay1 img {
+        width: 370px;
+        margin-left: 50px;
+    }
+    
+    .yay1 ul {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-right: -100px;
+    }
+    
+    .nice img {
+        margin-left: 140px;
+        width: 220px;
+        margin-bottom: 50px;
+    }
+    
+    .nice ul {
+        padding: 220px;
+        font-size: 24px;
+        margin-left: -60px;
+        margin-right: -200px;
+        line-height: 1.5;
+    }
+    
+    .nice1 img {
+        width: 350px;
+        height: 260px;
+        margin-left: 200px;
+        margin-top: -190px;
+    }
+    
+    .nice1 ul {
+        padding: 90px;
+        font-size: 24px; 
+        line-height: 1.5;
+        margin-left: -330px;
+        margin-top: 20px;
+    }
+
+    .work img {
+        margin-left: 140px;
+        width: 250px;
+    }
+    
+    .work ul {
+        padding: 60px 35px;
+        justify-content: space-between;
+        font-size: 24px;
+        margin-left: 130px;
+        line-height: 1.5;
+    }
+
+    .work {
+        margin-top: -260px;
+    }
+
+    .calender {
+        margin-top: -270px;
+        margin-left: 270px;
+    }
+    
+    .calender img {
+        width: 300px;
+        height: 299px;
+    }
+    
+    .calender ul {
+        padding: 270px 20px;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-left: -300px;
+        margin-top: 50px;
+        margin-right: -400px;
+    }
+    
+    .success {
+        margin-left: -5px;
+        width: 100%;
+        margin-top: -150px;
+    }
+    
+    .map h1 {
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    
+    .map ul {
+        margin-left: 100px;
+        line-height: 1.5;
+        list-style-type: none;
+        width: 25%;
+        font-size: 20px;
+    }
+    
+    iframe {
+        margin-left: 160px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+
+.footer {
+        width: 275%;
+        background: #d1e7ff;
+        color: black;
+        display: flex;
+    }
+   
+    .footer div {
+        text-align: center;
+    }
+   
+    .col-2 {
+        margin-top: 10px;
+        background: #d1e7ff;
+        margin-left: 340px;
+    }
+   
+    .col-1 img {
+        width: 350px;
+        align-items: center;
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+   
+    .col-1 {
+        align-items: center;
+        margin-top: 10px;
+        background: #d1e7ff;
+    }
+   
+    .footer div h3 {
+        font-weight: bold;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+    }
+   
+    .col-2 a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+    }
+   
+    .col-2 ul {
+        list-style-type: none;
+        font-weight: 100;
+    }
+   
+    .col-3 p {
+        font-weight: 100;
+    }
+   
+    .col-3 {
+        margin-left: 190px;
+        background: #d1e7ff;
+    }
+   
+    .footerbottom {
+        text-align: center;
+        font-weight: 300;
+        padding: 30px;
+        background-color: #d1e7ff;
+        font-weight: bold;
+        font-size: 13px;
+        width: 260%;
+    }
+}
