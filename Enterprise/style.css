@@ -486,19 +486,18 @@ form {
     }
 
     .aimaim {
-        background-image: url('ouraimbg.png');
-        background-size: 300% 100%;
-        background-repeat: no-repeat;
-        padding: 0;
-        margin-left: 20px;
-        background-color: rgb(174, 218, 255)
+        background-color: rgb(213, 241, 255);
+        overflow: cover;
+        margin-left: 40px;
+        width: 800px;
     }
 
     .aim {
-        background-image: url('ouraimbg.png');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin-left: 60px;
+        background-color: rgb(213, 241, 255);
+    }
+
+    .aimaim {
+        background-image: none;
     }
 
     .ouraim h2 {
@@ -546,41 +545,43 @@ form {
     .contact h1 {
         margin-top: 30px;
         margin-bottom: 10px;
-        font-size: 40px;
+        font-size: 50px;
         align-items: center;
-        margin-right: -450px;
+        margin-right: 35px;
     }
 
     .contact {
         background-image: url('homebg\ \(1\).png');
+        width: 1530px;
     }
 
     .contact textarea {
-        width: 500px;
-        height: 40px;
-        margin-left: 190px;
+        width: 600px;
+        height: 100px;
+        margin-right: -700px;
     }
     
-    .contact label {
+    form label {
         font-size: 19px;
         margin-top: 40px;
-        margin-left: 150px;
+        margin-right: -800px;
         font-weight: 550;
     }
     
     .submit input {
         width: 90px;
         height: 30px;
-        margin-left: 400px; 
+        margin-left: 650px; 
         font-size: 20px;
         margin-bottom: 20px;
     }
 
     .footer {
-        width: 219%;
+        width: 355%;
         background: #d1e7ff;
         color: black;
         display: flex;
+        font-size: 25px;
     }
     
     .footer div {
@@ -590,7 +591,7 @@ form {
     .col-2 {
         margin-top: 10px;
         background: #d1e7ff;
-        margin-left: 140px;
+        margin-left: 200px;
     }
     
     .col-1 img {
@@ -630,7 +631,7 @@ form {
     }
     
     .col-3 {
-        margin-left: 170px;
+        margin-left: 280px;
         background: #d1e7ff;
         width: 100%;
     }
@@ -641,8 +642,8 @@ form {
         padding: 30px;
         background-color: #d1e7ff;
         font-weight: bold;
-        font-size: 13px;
-        width: 205%;
+        font-size: 20px;
+        width: 340%;
     } 
 
 
