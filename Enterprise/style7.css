@@ -150,6 +150,9 @@ form {
     margin-bottom: 20px;
 }
 
+.contact label a {
+    color: rgb(22, 145, 253);
+}
 
 .footer {
     width: 100%;

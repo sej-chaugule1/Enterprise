@@ -587,7 +587,7 @@ iframe {
     }
 
 .footer {
-        width: 275%;
+        width: 290%;
         background: #d1e7ff;
         color: black;
         display: flex;
@@ -651,6 +651,6 @@ iframe {
         background-color: #d1e7ff;
         font-weight: bold;
         font-size: 13px;
-        width: 260%;
+        width: 275%;
     }
 }
